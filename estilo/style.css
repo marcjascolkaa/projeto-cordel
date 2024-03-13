@@ -1,0 +1,102 @@
+        @charset 'UTF-8';
+
+        @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swa');
+        @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body{
+            min-height: 100vh;
+            background-color: darkgray;
+        }
+        
+        a{
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        header{
+            text-align: center;
+            max-height: 300px;
+            min-height: 150px;
+            color: white;
+            background-color: black;
+        }
+
+        header h1{
+            font-variant: small-caps;
+            padding-top: 50px;
+            font-family: 'Passion One', sans-serif;
+            font-weight: bold;
+            font-size: 10vw;
+            
+        }
+
+        header p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-bottom: 50px;
+        }
+
+        section{
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+            padding-left: 30px;
+            line-height: 2em;
+            font-size: 3.7vw;
+        }
+
+        section.normal{
+            background-color: white;
+            color: black;
+        }
+
+        section.imagem{
+            background-color: rgba(0, 0, 0, 0.37);
+            color: white;
+            box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.507);
+            background-size: cover;
+        }
+
+        section.imagem > p{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.479);
+            display: inline-block;
+            padding: 5px;
+            text-shadow: 1px 1px 0px;
+        }
+
+        section p{
+            font-family: "Sriracha", cursive;
+            padding-bottom: 2em;
+        }
+
+
+        #img01{
+            background: url('../imagens/background001.jpg') right center no-repeat fixed;
+            
+        }
+
+        #img02{
+            background: url('../imagens/background002.jpg') right center no-repeat fixed;
+            
+        }
+
+        footer{
+            text-align: center;
+            color: white;
+            background-color: black;
+            padding: 10px;
+        }
+
+        footer p{
+            font-family: sans-serif;
+        }
